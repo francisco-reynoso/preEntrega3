@@ -1,16 +1,16 @@
 let productos = [];
 let carrito = [];
 
-// productos.push(new Producto(1,"sauvage",105000,"dior"));
-// productos.push(new Producto(2,"Aqua di gio",185000,"giorgio armani"));
-// productos.push(new Producto(3,"bleau de chanel",89000,"chanel"));
-// productos.push(new Producto(4,"one millon",76000,"paco rabbane"));
-// productos.push(new Producto(5,"212 vip black",102000,"carolina herrera"));
-// productos.push(new Producto(6,"Y le parfum",95000,"yves saint laurent"));
-// productos.push(new Producto(7,"homme sport",121000,"dior"));
+productos.push(new Producto(1,"sauvage",105000,"dior"));
+productos.push(new Producto(2,"Aqua di gio",185000,"giorgio armani"));
+productos.push(new Producto(3,"bleau de chanel",89000,"chanel"));
+productos.push(new Producto(4,"one millon",76000,"paco rabbane"));
+productos.push(new Producto(5,"212 vip black",102000,"carolina herrera"));
+productos.push(new Producto(6,"Y le parfum",95000,"yves saint laurent"));
+productos.push(new Producto(7,"homme sport",121000,"dior"));
 
 
-// localStorage.setItem(`productos`,JSON.stringify(productos));
+localStorage.setItem(`productos`,JSON.stringify(productos));
 
 
 const selectProductos = document.querySelector("#productos");
