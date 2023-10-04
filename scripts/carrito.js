@@ -94,5 +94,4 @@ function dibujarTabla() {
 
     });
     total.textContent=(`$${carrito.reduce((accu,item)=> accu+ item.producto.precio*item.cantidad,0)}`);
-
 }
