@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "sauvage",
+        "marca" :"Dior",
+        "precio" : 105000
+    },
+    {
+        "id": 2,
+        "nombre": "aqua di gio",
+        "marca" :"Giorgio Armani",
+        "precio" : 125000
+    },
+    {
+        "id": 3,
+        "nombre": "one millon",
+        "marca" :"Paco Rabbane",
+        "precio" : 93000
+    },
+    {
+        "id": 4,
+        "nombre": "invictus",
+        "marca" :"Paco Rabbane",
+        "precio" : 105000
+    },
+    {
+        "id": 5,
+        "nombre": "aventus",
+        "marca" :"Creed",
+        "precio" : 305000
+    },
+    {
+        "id": 6,
+        "nombre": "eros",
+        "marca" :"Versace",
+        "precio" : 121000
+    },
+    {
+        "id": 7,
+        "nombre": "212 vip black",
+        "marca" :"Carolina Herrera",
+        "precio" : 110000
+    }
+]

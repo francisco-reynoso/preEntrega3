@@ -17,4 +17,13 @@ main {
   align-items: center;
 }
 
+header {
+  height: 3rem;
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
