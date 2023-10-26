@@ -76,7 +76,7 @@ function dibujarTabla() {
             <td>${cantidad || ""}</td>
             <td>$${precio*cantidad || ""}</td>
             <td><button class ="btn btn-danger">eliminar</button></td>
-            <td class = "agregar" > + </td>
+            
         </tr>
         `;
         if(carrito.length != 0 ) {

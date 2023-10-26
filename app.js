@@ -21,4 +21,4 @@ app.listen(app.get('port'), () => {
 
 
 // PARA CORRER ESTE SERVIDOR ES NECESARIO PONER ESTE COMANDO EN CONSOLA :
-//  node --unhandled-rejections=strict app.js
+//  node app.js

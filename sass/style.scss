@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+$negro: #242a2e;
+$blanco: #FEFEFE;
+$grisOscuro: #222222;
+$grisClaro: #C8C8C8;
+$grisClaroHover: #ACABAB;
+$azul: #3E60E9;
+$azulHover: #254BE6;
+
+$sombraDark: 10px 10px 20px rgba(170,170,170,.16);
+$sombraLight: 10px 10px 20px rgba(0,0,0,.16);
+
 *{
     margin: 0;
     padding: 0;
@@ -17,5 +28,98 @@ main{
     flex-direction: column;
     align-items: center;
     
+}
+
+.negro{
+    background-color : #242a2e;
+}
+
+.letra-clara{
+    color: antiquewhite;
+}
+
+main {
+	background: #F1F1F1;
+	font-family: 'Roboto', sans-serif;
+	transition: .3s ease all;
+
+	&.dark {
+		background: $negro;
+	}
+}
+
+a {
+	color: $grisOscuro;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+main.dark {
+	background: $grisOscuro;
+	box-shadow: $sombraLight;
+	a {
+		color: $grisClaro;
+		&:hover {
+			color: $blanco;
+		}
+	}
+}
+
+.logotipo {
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+
+.enlaces {
+	display: flex;
+	align-items: center;
+	a {
+		margin-right: 40px;
+		&:hover {
+			color: #707070;
+		}
+	}
+}
+
+
+// ----- ----- ----- ----- ----- Switch ----- ----- ----- ----- ----- 
+.switch {
+	background: #343D5B;
+	border-radius: 1000px;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	display: flex;
+	outline: none;
+	&::after {
+		content: "";
+		display: block;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		background: #ffffff;
+		top: 0;
+		left: 0;
+		right: unset;
+		border-radius: 100px;
+		transition: .3s ease all;
+		box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
+	}
+	&.active {
+		background: orange;
+		color: #000;
+		&::after {
+			right: 0;
+			left: unset;
+		}
+	}
+	span {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		display: block;
+		background: none;
+		color: #fff;
+	}
 }
 
