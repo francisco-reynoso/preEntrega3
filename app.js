@@ -18,3 +18,7 @@ app.use(router.routes)
 app.listen(app.get('port'), () => {
     console.log( `server running on port ${app.get('port')}`);
 })
+
+
+// PARA CORRER ESTE SERVIDOR ES NECESARIO PONER ESTE COMANDO EN CONSOLA :
+//  node --unhandled-rejections=strict app.js
